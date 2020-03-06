@@ -1,7 +1,7 @@
 {
   "name": "use-multi-possibility",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "Simplify testing grouped values",
   "main": "cjs/index.js",
   "module": "esm/index.js",
   "scripts": {
@@ -10,6 +10,10 @@
   },
   "author": "Nick Heal",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nickheal/use-multi-possibility.git"
+  },
   "devDependencies": {
     "@babel/core": "^7.8.7",
     "@babel/preset-env": "^7.8.7",
