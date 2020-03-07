@@ -1,5 +1,8 @@
 # use-multi-possibility
 
+[![Codecov Coverage](https://img.shields.io/codecov/c/github/nickheal/use-multi-possibility/master.svg?style=flat)](https://codecov.io/gh/nickheal/use-multi-possibility/)
+![GitHub](https://img.shields.io/github/license/nickheal/use-multi-possibility)
+
 ## Purpose
 
 use-multi-possibility is a package designed to simplify testing with a large set of possible values.
