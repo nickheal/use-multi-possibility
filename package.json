@@ -2,6 +2,7 @@
   "name": "use-multi-possibility",
   "version": "1.0.4",
   "description": "Simplify testing grouped values",
+  "esnext": "src/index.js",
   "main": "cjs/index.js",
   "module": "esm/index.js",
   "scripts": {
