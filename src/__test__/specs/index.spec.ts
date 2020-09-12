@@ -2,7 +2,7 @@ import useMultiPossibility, {
   getEveryCombination,
   TRUTHY,
   FALSY,
-} from '../../src/index';
+} from '../../index';
 
 describe('getEveryCombination', () => {
   it('should return every possible combination of a given set of arrays', () => {
