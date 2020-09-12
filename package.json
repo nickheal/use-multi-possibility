@@ -1,6 +1,6 @@
 {
   "name": "use-multi-possibility",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Simplify testing grouped values",
   "esnext": "src/index.js",
   "main": "cjs/index.js",
