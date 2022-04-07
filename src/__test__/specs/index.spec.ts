@@ -22,7 +22,7 @@ describe('getEveryCombination', () => {
 describe('useMultiPossibility', () => {
   it('should run a function with every combination of the provided possibilities', () => {
     const fn = jest.fn();
-    useMultiPossibility(([A, B]: any[]) => {
+    useMultiPossibility(([A, B]) => {
       fn(A, B);
     }, [['a'], [1, 2]]);
     expect(fn).toHaveBeenCalledWith('a', 1);
