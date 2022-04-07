@@ -8,7 +8,7 @@ export function getEveryCombination([head, ...tail]: any[]): any[] {
   return combinations.map((combination) => head.map((h: any) => [h, ...combination])).flat();
 }
 
-export default function useMultiPossibility(test: Function, possibilities: any[]): void {
+export default function useMultiPossibility<T>(test: (value: T) => void, possibilities: T[]): void {
   getEveryCombination(possibilities)
-    .forEach((value) => test(value));
+    .forEach((value: T) => test(value));
 }
