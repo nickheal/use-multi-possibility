@@ -1,6 +1,6 @@
 {
   "name": "use-multi-possibility",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "Simplify testing grouped values",
   "type": "module",
   "esnext": "src/index.ts",
